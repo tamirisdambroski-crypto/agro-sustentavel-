@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Agro Forte: Futuro Sustentável</h1>
+        <p>O equilíbrio entre a produção e o meio ambiente</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>O Equilíbrio Necessário</h2>
+            <p>O grande desafio do século XXI é produzir alimentos para uma população em crescimento constante, sem esgotar os recursos naturais do nosso planeta. O agro sustentável utiliza tecnologia, rotação de culturas e preservação de nascentes para garantir que a terra continue fértil para as próximas gerações.</p>
+        </section>
+
+        <section class="card">
+            <h2>O Papel da FAEP</h2>
+            <p>A <strong>FAEP (Federação da Agricultura do Estado do Paraná)</strong> desempenha um papel fundamental nesse cenário. Ela atua capacitando os produtores rurais por meio de cursos e treinamentos (como os do SENAR), promovendo técnicas modernas de manejo do solo, sustentabilidade e inovação no campo, mostrando que a produtividade e a preservação andam de mãos dadas.</p>
+        </section>
+
+        <section class="card quiz-section">
+            <h2>Teste seus Conhecimentos!</h2>
+            <p>Será que você sabe tudo sobre agro sustentável?</p>
+            
+            <div id="quiz-container">
+                <div class="question">
+                    <p><strong>1. Qual o principal objetivo do Agro Sustentável?</strong></p>
+                    <label><input type="radio" name="q1" value="errado"> Produzir o máximo possível sem ligar para o solo.</label><br>
+                    <label><input type="radio" name="q1" value="certo"> Equilibrar a produção de alimentos com a preservação ambiental.</label><br>
+                    <label><input type="radio" name="q1" value="errado"> Abandonar a tecnologia no campo.</label>
+                </div>
+
+                <div class="question">
+                    <p><strong>2. Quem promove a capacitação de produtores rurais no Paraná focando em inovação e sustentabilidade?</strong></p>
+                    <label><input type="radio" name="q2" value="errado"> Empresas estrangeiras de tecnologia.</label><br>
+                    <label><input type="radio" name="q2" value="certo"> Sistema FAEP/SENAR.</label><br>
+                    <label><input type="radio" name="q2" value="errado"> Apenas os próprios agricultores sozinhos.</label>
+                </div>
+
+                <button onclick="verificarRespostas()">Enviar Respostas</button>
+                <div id="resultado"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto Agro Forte, Futuro Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
